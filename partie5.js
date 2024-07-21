@@ -1,5 +1,5 @@
 // Exercice 1
-// Si multiple de 3 « Hello ».
+// Si multiple de 3 « Hello ». 
 // Si multiple de 5 « World ».
 // Si multiple de 3 et 5 « Hello World ».
 // if : 
