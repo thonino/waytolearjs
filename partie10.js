@@ -25,7 +25,7 @@ console.log(add("2", 3));
 // }
 // console.log(product([1, 2, 3, 4]));
 // console.log(product([3, 6, 8, 5, 5, 7]));
-// console.log(product([1, 0, 1, 0, 1, 0]));
+// console.log(product([1, 0, 1, 0, 1, 0]))
 
 // Exercice 3
 // répète chaque caractère dans une chaîne n fois
