@@ -7,7 +7,7 @@ fxES5 = function() { return "Hello World!"; }
 // console.log(fxES5())
 
 // fonction avec ES6 :
-fxES6 = () => "Hello World!";
+fxES6 = () => "Hello world!";
 // console.log(fxES6())
 
 // ------------ JSON ------------ //

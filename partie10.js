@@ -1,13 +1,24 @@
+function distanceHamming(str1, str2) {
+	let res = [...str1].filter((e, i) => e !== str2[i] )
+	return(res.length)
+}
+
+// Afficher la sortie
+console.log(distanceHamming("abcdde", "abcdbe"));
+console.log(distanceHamming("abefcd", "cdfgea"));
+console.log(distanceHamming("agresser", "adresser"));
+console.log(distanceHamming("attention", "intention"));
+
 // Exercice 1
 // addition ou concatenation selon type
-  function add(a, b){
-    return typeof a === "string" && typeof b === "string" ? Number(a) + Number(b) :
-    typeof a === "number" && typeof b === "number" ? String(a) + String(b) :
-    typeof a !== typeof b ? "null" : null;
-  }
-console.log(add("2", "3"));
-console.log(add(2, 3));
-console.log(add("2", 3));
+//   function add(a, b){
+//     return typeof a === "string" && typeof b === "string" ? Number(a) + Number(b) :
+//     typeof a === "number" && typeof b === "number" ? String(a) + String(b) :
+//     typeof a !== typeof b ? "null" : null;
+//   }
+// console.log(add("2", "3"));
+// console.log(add(2, 3));
+// console.log(add("2", 3));
 
 // Exercice 2
 // renvoie le produit de tous les entiers impairs dans un tableau.
